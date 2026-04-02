@@ -1,10 +1,11 @@
 import { Component } from '@angular/core'
 import { Prompt } from '../prompt.model'
 import { CommonModule } from '@angular/common'
+import { PromptCard } from '../prompt-card/prompt-card'
 
 @Component({
   selector: 'app-prompt-list',
-  imports: [CommonModule],
+  imports: [CommonModule, PromptCard],
   templateUrl: './prompt-list.html',
   styleUrl: './prompt-list.scss',
 })
